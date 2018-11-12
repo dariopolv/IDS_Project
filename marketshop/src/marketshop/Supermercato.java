@@ -3,12 +3,12 @@ package marketshop;
 
 public class Supermercato {
     
-    public int ID; //identificativo del supermercato
-    public String nome; //nome del supermercato 
-    public String luogo; //dove è situato il supermercato
-    public String numtel; // numero telefono supermercato
-    public String openh; //orario apertura supermercato
-    public String closeh; //orario chiusura supermercato
+    private int ID;          //identificativo del supermercato
+    private String nome;     //nome del supermercato 
+    private String luogo;    //dove è situato il supermercato
+    private String numtel;   // numero telefono supermercato
+    private String openh;    //orario apertura supermercato
+    private String closeh;   //orario chiusura supermercato
     
     public Supermercato(int ID,String nome,String luogo,String numtel,String openh,String closeh){
     

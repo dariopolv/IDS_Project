@@ -3,38 +3,57 @@ package marketshop;
 
 public class Prodotto {
     
-    public int codprod; //codice prodotto
-    public String nomepr; //nome prodotto
-    public int quant; //quantità disponibile
-    public int categoria; //codice categoria appartenenza prodotto
-    public float price; //prezzo prodotto
-    public String descr; //descrizione prodotto
+    private int codprod;    //codice prodotto
+    private String nomepr;  //nome prodotto
+    private int quant;      //quantità disponibile
+    private int categoria;  //codice categoria appartenenza prodotto
+    private float price;    //prezzo prodotto
+    private String descr;   //descrizione prodotto
     
     public Prodotto(){
-
+        
+                   
     }
     
-    /*public void setCodicePro(int codprod){
-        this.codprod = codprod;//imposta codice prodotto
+    public void setCodicePro(int codprod){
+        this.codprod = codprod;
     }
     public int getCodicePro(){
-       return codprod; //serve per associare il codice prodotto al carrello
-                       //  "   per associare al prodotto tutti i dettagli
+       return codprod;                      
     }
     
     public void setQnt(int quant){
-        this.quant = quant;//imposta disponibilità del prodotto  
+        this.quant = quant; 
     }
     public int getQnt(){
-        return quant;//serve per modificare la disponibilità del prodotto
+        return quant;
     }
     
     public void setPre(float price){
-        this.price = price;//imposta il prezzo del prodotto 
+        this.price = price;
     }
     public float getPre(){
-        return price;//serve a calcolare il prezzo finale del carrello    
+        return price;    
     }
-    */ // bisogna capi se faglielo legge direttamente dal database o impostallo
     
+    public int getCatego(){
+        return categoria;
+    } 
+    public void setCatego(int categoria){
+        this.categoria = categoria;
+    }
+    
+    public String getDescri(){
+        return descr;
+    }
+    public void setDescri(String descr){
+        this.descr = descr;
+    }
+    
+    public String getNomePr(){
+        return nomepr;
+    }    
+    public void setNomePr(String nomepr){
+        this.nomepr = nomepr;
+    }
 }

@@ -4,8 +4,8 @@ package marketshop;
 
 public class Categoria {
     
-    public int codcat; //codice categoria
-    public String nomec; //nome del reparto 
+    private int codcat; //codice categoria
+    private String nomec; //nome del reparto 
     
     public Categoria(){
     

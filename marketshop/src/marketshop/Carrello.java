@@ -2,9 +2,9 @@
 package marketshop;
 
 public class Carrello {
-    public int codcarr; //codice carrello
-    public float finalprice; //prezzo finale da pagare
-    public String codicefisc;
+    private int codcarr;       //codice carrello
+    private float finalprice;  //prezzo finale da pagare
+    private String codicefisc; //codice fiscale del cliente
     
     public Carrello(){
             

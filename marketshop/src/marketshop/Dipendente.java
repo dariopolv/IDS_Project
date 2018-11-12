@@ -3,9 +3,9 @@ package marketshop;
 
 public class Dipendente {
     
-    public int codice; //identificativo del diepndente
-    private String userid; //nome utente del dipendente
-    private String psw; //password del dipendente 
+    private int codice;      //identificativo del diepndente
+    private String userid;  //nome utente del dipendente
+    private String psw;     //password del dipendente 
     
     public Dipendente(int codice, String userid, String psw){
     

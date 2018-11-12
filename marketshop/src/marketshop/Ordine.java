@@ -4,8 +4,8 @@ package marketshop;
 
 public class Ordine {
     
-    public int codord; //codice ordine
-    public int codcar; //codice carrello
+    private int codord; //codice ordine
+    private int codcar; //codice carrello
     
     public Ordine(){
     

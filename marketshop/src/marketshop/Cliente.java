@@ -3,11 +3,11 @@ package marketshop;
 
 public class Cliente {
 
-    public String codfisc;  //codice fiscale cliente, identificativo del login
-    protected String nome; //nome cliente
-    protected String cognome; //congome cliente
-    protected String resid; //residenza cliente
-    protected String pwd;
+    private String codfisc;      //codice fiscale cliente, identificativo del login
+    private String nome;      //nome cliente
+    private String cognome;   //congome cliente
+    private String resid;     //residenza cliente
+    private String pwd;       //password per un eventuale accesso
     
     public Cliente(String codfisc, String nome, String cognome, String resid,String pwd){
         
@@ -22,7 +22,7 @@ public class Cliente {
     
     public String getCodiceFisc(){
         
-        return codfisc;// associa cliente al carrello
+        return codfisc; //associa cliente al carrello
         
     }
 }
