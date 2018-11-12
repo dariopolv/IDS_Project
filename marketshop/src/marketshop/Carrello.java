@@ -1,6 +1,8 @@
 
 package marketshop;
 
+//ciao
+
 public class Carrello {
     private int codcarr;       //codice carrello
     private float finalprice;  //prezzo finale da pagare
