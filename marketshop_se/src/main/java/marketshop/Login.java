@@ -49,7 +49,6 @@ public class Login extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(dimensioni);
 
         jPanel1.setToolTipText("");
         jPanel1.setAutoscrolls(true);

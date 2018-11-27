@@ -41,7 +41,6 @@ public class Registrazione extends javax.swing.JFrame {
         ex = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(dimensioni);
         setSize(dimensioni);
 
         jPanel1.setAutoscrolls(true);
